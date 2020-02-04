@@ -1,0 +1,144 @@
+@import url('../fonts/Gelasio/Gelasio-Regular.ttf');
+
+body{
+    font-family: 'Gelasio', serif;
+}
+
+a{
+    color: #212529;
+}
+a:hover{
+    color: black;
+    text-decoration-line: none;
+}
+
+nav{
+    background-color: #dadada;
+}
+
+.nav-item{
+    padding-left: 30px;
+}
+
+.cart{
+    padding-right: 30px;
+}
+
+.cart-img{
+    max-width: 40px;
+    max-height: auto;
+    margin-top: -10px;
+}
+
+.carousel-item{
+    max-height: 555px;
+    background-size: 500px 100px;
+}
+
+.carousel-item h5{
+    font-size: 100px;
+}
+
+.sales-products{
+    margin-bottom: 25px;
+}
+
+.sales-products h1{
+    text-align: center;
+    padding: 28px 0;
+}
+
+.product{
+    height: 380px;
+    max-width: 250px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #b9b9b9;
+    position: relative;
+}
+
+.product-discount{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -15px;
+    height: 20px;
+    width: 45px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #f16060;
+}
+
+.product img{
+    position: absolute;
+    height: 250px;
+    max-width: auto;
+    padding-left: 13%;
+    padding-top: 15px;
+}
+
+.product .product-title{
+    padding-top: 265px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product .product-price{
+    margin-top: -10px;
+    text-align: center;
+}
+
+.product button{
+    width: 100%;
+    margin-top: -5px;
+}
+
+.category-products h1{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.products-list-by-category h1{
+    margin: 25px 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.products-list-by-category nav{
+    margin-left: -25px;
+    background-color: white;
+}
+
+.pagination .page-link{
+    color: #460606;
+}
+.pagination .page-item.active .page-link{
+    background-color: #460606;
+    border-color: #440606;
+}
+
+.product-detail .carousel-item{
+    margin-top: 25px;
+    margin-left: 118px;
+    max-height: 650px;
+    width: 315px;
+}
+
+.product-detail .product-title{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.product-detail .product-price{
+    font-size: 18px;
+    color: #440606;
+}
+
+.product-detail button{
+    width: 100%;
+    /*padding: 10px 3px;*/
+}
+
+.product-detail form{
+    margin-top: 25px;
+}
